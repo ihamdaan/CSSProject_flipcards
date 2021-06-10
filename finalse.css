@@ -26,6 +26,7 @@ footer{
     text-align: center;
     width: 100%;
     opacity: 0.6;
+    letter-spacing: 3px;
 }
 
 .parent{
@@ -93,4 +94,16 @@ footer{
 .note{
     text-align: center;
     padding: 2px;
+}
+
+@media only screen and (max-width: 757px) {
+    footer {
+        font-size: 8px;
+        position: fixed;
+        bottom: 0%;
+        color: #228B22;
+        text-align: center;
+        width: 100%;
+        opacity: 0.6;
+    }
 }
